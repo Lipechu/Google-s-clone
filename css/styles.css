@@ -53,14 +53,108 @@ nav .nav-main-right img {
 nav .nav-main-right li {
     margin-right: 12px;
 }
+/*MAIN*/
 main {
-    margin-top: 10px;
     text-align: center;
 }
 main .main-logo {
-    width: 400px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+main .main-logo img {
+    width: 272px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 582px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 500px;
+    height: 44px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS90G3xOR9WW6LakYAkQuzoeDHMa8hbZ_XxRxASBtkltLtppQkskpoo0FFJ6llmrLyB7pE&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+main .main-input .micro-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+main .main-buttons {
+    width: 530px;
     margin: 0 auto;
 }
-main .main-logo .google-logo {
-
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 1.4rem;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+}
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
 }
