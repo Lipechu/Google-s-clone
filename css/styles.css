@@ -157,6 +157,7 @@ footer .footer-left {
 }
 footer .footer-right {
     width: 35%;
+    display: flex;
     justify-content: end;
     padding: 15px 25px 0 0;
 }
